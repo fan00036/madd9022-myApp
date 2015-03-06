@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+
+
+</head>
+
+<body>
+
+    <!-- application title bar -->
+    <header class="apptitle">
+        <h1>Divination Spells</h1>
+    </header>
+
+    <!-- tabbed navigation bar -->
+    <nav class="tabs">
+        <ul>
+            <li class="li-1-3"><a href="#home" data-role="pagelink" class="activetab"><img src="svg/home.svg"></a>
+            </li>
+            <li class="li-1-3"><a href="#two" data-role="pagelink"><img src="svg/map.svg"></a>
+            </li>
+            <li class="li-1-3"><a href="#three" data-role="pagelink"><img src="svg/people.svg"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section data-role="page" id="home" class="active">
+        <h2>Game Introduction</h2>
+        <p id="mainP1"><strong>This is an amazing game APP for fun!</strong> </p>
+        <p> Click the contact section and the magical thing will happen to you!!! The guy you are thinking of will be displayed on this section. All the contact information will be shown! The map section shows your location.<strong>Enjoying!!!</strong>
+        </p>
+    </section>
+
+    <section data-role="page" id="two">
+        <h2>Your location</h2>
+        <div id="output"></div>
+    </section>
+
+    <section data-role="page" id="three">
+        <h2>Contact Information</h2>
+        <ul id=lists></ul>
+    </section>
+
+
+
+</body>
+<script src="cordova.js"></script>
+<script src="js/index.js"></script>
+
+</html>
