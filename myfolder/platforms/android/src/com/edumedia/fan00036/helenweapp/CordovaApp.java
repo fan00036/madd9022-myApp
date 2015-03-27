@@ -17,7 +17,7 @@
        under the License.
  */
 
-package ca.edumedia.fan00036.myapp;
+package com.edumedia.fan00036.helenweapp;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
